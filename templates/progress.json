@@ -1,0 +1,13 @@
+{
+  "status": "pending",
+  "created_at": "2026-01-01T00:00:00Z",
+  "updated_at": "2026-01-01T00:00:00Z",
+  "keyword": "example-task",
+  "current_step": "step01-prepare",
+  "completed_steps": [],
+  "failed_steps": [],
+  "outputs": {
+    "config": "state/config.json"
+  },
+  "resume_hint": "Start from step01-prepare using state/config.json."
+}

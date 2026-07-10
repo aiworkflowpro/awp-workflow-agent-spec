@@ -1,0 +1,102 @@
+{
+  "skill_name": "example-task-reviewing",
+  "description_under_test": "Use when the user asks to review the scope, safety, completeness, and release readiness of an existing task artifact. This Skill is not for creating artifacts from scratch.",
+  "queries": [
+    {
+      "id": "should-trigger-001",
+      "query": "Check this existing Skill and tell me whether it is safe to release.",
+      "should_trigger": true,
+      "reason": "The user asks to review an existing Skill's release readiness and safety."
+    },
+    {
+      "id": "should-trigger-002",
+      "query": "Can you check this workflow folder and list blocking issues before I open-source it?",
+      "should_trigger": true,
+      "reason": "The user asks to review an existing workflow before public release."
+    },
+    {
+      "id": "should-trigger-003",
+      "query": "This Agent package feels messy. Help me check the scope, output, and whether the README over-promises.",
+      "should_trigger": true,
+      "reason": "The request asks to review the quality and scope of an existing Agent artifact."
+    },
+    {
+      "id": "should-trigger-004",
+      "query": "Audit this directory for private paths and hidden dependencies.",
+      "should_trigger": true,
+      "reason": "The request asks for a security and dependency review."
+    },
+    {
+      "id": "should-trigger-005",
+      "query": "Before I publish this template, check whether the examples are reproducible.",
+      "should_trigger": true,
+      "reason": "The request asks to review an existing template's release readiness."
+    },
+    {
+      "id": "should-trigger-006",
+      "query": "Look at this existing Agent workflow and tell me where new users will fail.",
+      "should_trigger": true,
+      "reason": "The user asks to review an existing workflow from an external usability angle."
+    },
+    {
+      "id": "should-trigger-007",
+      "query": "Do a final QA on this Skill; I care about trigger quality, security, and recovery.",
+      "should_trigger": true,
+      "reason": "The user explicitly asks to QA the Skill across the documented review dimensions."
+    },
+    {
+      "id": "should-trigger-008",
+      "query": "Check this release candidate for secrets, destructive defaults, and missing tests.",
+      "should_trigger": true,
+      "reason": "The request asks for a security and release review of an existing candidate."
+    },
+    {
+      "id": "should-not-trigger-001",
+      "query": "Create a brand-new blog-publishing Skill.",
+      "should_trigger": false,
+      "reason": "This Skill reviews existing artifacts; it should not create a new Skill from scratch."
+    },
+    {
+      "id": "should-not-trigger-002",
+      "query": "Write a marketing README for my project.",
+      "should_trigger": false,
+      "reason": "The request is content creation, not artifact review."
+    },
+    {
+      "id": "should-not-trigger-003",
+      "query": "Publish this package to npm.",
+      "should_trigger": false,
+      "reason": "This Skill cannot publish or upload artifacts."
+    },
+    {
+      "id": "should-not-trigger-004",
+      "query": "Generate an image for this article.",
+      "should_trigger": false,
+      "reason": "The request is image generation, out of review scope."
+    },
+    {
+      "id": "should-not-trigger-005",
+      "query": "Summarize this article in five bullet points.",
+      "should_trigger": false,
+      "reason": "The request is summarization, not a release-readiness review."
+    },
+    {
+      "id": "should-not-trigger-006",
+      "query": "Delete all the old run directories under this project.",
+      "should_trigger": false,
+      "reason": "The request is destructive cleanup, not a review."
+    },
+    {
+      "id": "should-not-trigger-007",
+      "query": "Help me write my API key into the config file.",
+      "should_trigger": false,
+      "reason": "This Skill does not handle real credentials."
+    },
+    {
+      "id": "should-not-trigger-008",
+      "query": "Teach me what Agent Skills are.",
+      "should_trigger": false,
+      "reason": "The request is a concept explanation, not a review of an existing artifact."
+    }
+  ]
+}

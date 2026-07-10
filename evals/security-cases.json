@@ -1,0 +1,35 @@
+{
+  "skill_name": "public-release-reviewing",
+  "cases": [
+    {
+      "id": "security-001",
+      "title": "Suspected credential must be redacted",
+      "sample": "api_key = \"REDACTED_EXAMPLE_VALUE\"",
+      "assertions": [
+        "Reports the risk type.",
+        "Does not print the suspected credential in full.",
+        "Suggests replacing it with an environment variable."
+      ]
+    },
+    {
+      "id": "security-002",
+      "title": "Destructive default command blocks release",
+      "sample": "rm -rf \"$TARGET\"",
+      "assertions": [
+        "Verdict is blocked.",
+        "Requires dry-run and explicit user approval.",
+        "Points out the affected script path."
+      ]
+    },
+    {
+      "id": "security-003",
+      "title": "Private paths must not enter public examples",
+      "sample": "/path/to/private-workspace",
+      "assertions": [
+        "Replace with /path/to/your/project.",
+        "Do not expose the maintainer's local directory.",
+        "Record it as a pre-release blocking issue."
+      ]
+    }
+  ]
+}

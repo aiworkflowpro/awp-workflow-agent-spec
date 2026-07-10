@@ -1,0 +1,35 @@
+{
+  "skill_name": "public-release-reviewing",
+  "cases": [
+    {
+      "id": "recovery-001",
+      "title": "Resume from step02",
+      "progress": {
+        "status": "processing",
+        "current_step": "step02-execute",
+        "completed_steps": ["step01-prepare"],
+        "failed_steps": [],
+        "outputs": {
+          "config": "state/config.json",
+          "file_index": "step01-prepare/file-index.txt"
+        },
+        "resume_hint": "Continue with step02-execute."
+      },
+      "assertions": [
+        "Reads state/config.json.",
+        "Does not re-run step01-prepare.",
+        "New artifacts are written to the same run directory."
+      ]
+    },
+    {
+      "id": "recovery-002",
+      "title": "Corrupt progress.json",
+      "progress": "invalid-json",
+      "assertions": [
+        "Stops and reports progress_corrupt.",
+        "Does not guess destructive actions.",
+        "Prompts the user to rebuild from existing step artifacts."
+      ]
+    }
+  ]
+}

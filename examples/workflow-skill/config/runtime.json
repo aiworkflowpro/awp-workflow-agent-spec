@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "skill": "public-release-reviewing",
+  "profiles": ["minimal", "standard"],
+  "envs": [
+    {
+      "id": "shell-main",
+      "kind": "bash",
+      "required": true,
+      "version": ">=3.2",
+      "install_hint": "Use the OS-provided bash, or install via your system package manager."
+    }
+  ],
+  "binaries": [
+    {
+      "name": "find",
+      "required": true,
+      "purpose": "List the files to review."
+    },
+    {
+      "name": "grep",
+      "required": true,
+      "purpose": "Scan for public-release risk patterns."
+    },
+    {
+      "name": "gitleaks",
+      "required": false,
+      "purpose": "Optional secret scan. Records skipped_checks when missing."
+    }
+  ],
+  "models": [],
+  "cache_policy": {
+    "root": "runtime",
+    "sync": false,
+    "allow_provider_cache": false
+  },
+  "network": {
+    "required": false,
+    "hosts": [],
+    "offline_behavior": "stop-or-degrade-with-record"
+  }
+}

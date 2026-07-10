@@ -1,0 +1,30 @@
+{
+  "skill_name": "public-release-reviewing",
+  "cases": [
+    {
+      "id": "function-001",
+      "title": "Minimal public-package review",
+      "input": "examples/workflow-skill/samples/input/public-package",
+      "expected_outputs": [
+        "step02-execute/findings.json",
+        "output/public-release-report.md"
+      ],
+      "assertions": [
+        "The report includes verdict, blocking issues, non-blocking issues, verification, and remaining risk.",
+        "private_pattern_hits is empty.",
+        "destructive_hits is empty."
+      ]
+    },
+    {
+      "id": "function-002",
+      "title": "Missing target directory",
+      "input": "examples/workflow-skill/samples/input/missing-package",
+      "expected_outputs": [],
+      "assertions": [
+        "The flow stops.",
+        "The error type is recoverable.",
+        "No final report is created."
+      ]
+    }
+  ]
+}

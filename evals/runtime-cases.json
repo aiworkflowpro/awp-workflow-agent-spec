@@ -1,0 +1,47 @@
+{
+  "skill_name": "public-release-reviewing",
+  "cases": [
+    {
+      "id": "runtime-001",
+      "title": "Required binary missing",
+      "runtime_error": {
+        "type": "binary_missing",
+        "name": "find",
+        "required": true
+      },
+      "assertions": [
+        "The flow stops.",
+        "The error is written to progress.json.",
+        "Prompts to prepare the environment per docs/setup.md."
+      ]
+    },
+    {
+      "id": "runtime-002",
+      "title": "Optional gitleaks missing",
+      "runtime_error": {
+        "type": "binary_missing",
+        "name": "gitleaks",
+        "required": false
+      },
+      "assertions": [
+        "The flow can degrade.",
+        "skipped_checks records gitleaks.",
+        "Reports remaining risk."
+      ]
+    },
+    {
+      "id": "runtime-003",
+      "title": "Model checksum mismatch",
+      "runtime_error": {
+        "type": "runtime_corrupt",
+        "resource": "model",
+        "role": "asr-default"
+      },
+      "assertions": [
+        "Does not keep using the model.",
+        "Prompts repair.",
+        "Does not silently re-download the large model."
+      ]
+    }
+  ]
+}
