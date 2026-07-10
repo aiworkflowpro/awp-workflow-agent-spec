@@ -228,6 +228,18 @@ We focus on how AI coding tools (Claude Code / Codex), agents, and automation ac
 
 ---
 
+
+## 🧩 More from AI Workflow Pro
+
+| Project | What it is |
+|---|---|
+| ✅ [workflow-agent-skill-spec](https://github.com/aiworkflowpro/workflow-agent-skill-spec) | Spec for building production-grade Claude Code Skills |
+| [video-editing-skill](https://github.com/aiworkflowpro/video-editing-skill) | Claude Code Skill — automated video editing |
+| [awesome-rss-feeds](https://github.com/aiworkflowpro/awesome-rss-feeds) | 2000+ curated RSS feeds, 30 categories |
+| [awesome-ai-practices](https://github.com/aiworkflowpro/awesome-ai-practices) | Real AI best practices, auto-curated every 6h |
+
+🌐 [aiworkflowpro.com](https://aiworkflowpro.com) · 👤 [@aiworkflowpro](https://github.com/aiworkflowpro) · 𝕏 [@aiworkflowprolk](https://x.com/aiworkflowprolk)
+
 ## 📄 License
 
 Licensed under the [MIT License](LICENSE) — © 2026 AI Workflow Pro.
