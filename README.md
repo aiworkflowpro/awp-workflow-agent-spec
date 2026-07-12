@@ -10,7 +10,7 @@
 [![Examples](https://img.shields.io/badge/Examples-2_Skills-orange?style=for-the-badge)](examples/)
 [![Agent Ready](https://img.shields.io/badge/Agent-Ready-412991?style=for-the-badge&logo=openai&logoColor=white)](CLAUDE.md)
 [![License](https://img.shields.io/badge/License-MIT-2C3E50?style=for-the-badge)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/aiworkflowpro/workflow-agent-skill-spec?style=for-the-badge&logo=github&color=181717)](https://github.com/aiworkflowpro/workflow-agent-skill-spec/stargazers)
+[![Stars](https://img.shields.io/github/stars/aiworkflowpro/awp-workflow-agent-spec?style=for-the-badge&logo=github&color=181717)](https://github.com/aiworkflowpro/awp-workflow-agent-spec/stargazers)
 
 </div>
 
@@ -69,7 +69,7 @@ Many Skills fall short because the task was never designed to run. This specific
 > 🎯 **A short entry point up top, the full framework in `docs/`, and machine-verifiable contracts to check against.**
 
 ```text
-workflow-agent-skill-spec/
+awp-workflow-agent-spec/
   README.md                 Public introduction (this page)
   CLAUDE.md / AGENTS.md     Agent project entry points
   docs/                     22 docs — the full specification
@@ -189,7 +189,7 @@ You (to Codex):
 
 ## 🤝 Contributing
 
-Open an [issue](https://github.com/aiworkflowpro/workflow-agent-skill-spec/issues) or a pull request to:
+Open an [issue](https://github.com/aiworkflowpro/awp-workflow-agent-spec/issues) or a pull request to:
 
 - 🧩 **Propose a spec improvement** — a clearer module, a missing failure mode, a better default
 - 📐 **Add or refine a template** — and update the matching example so they stay consistent
