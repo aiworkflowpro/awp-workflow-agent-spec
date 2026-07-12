@@ -240,7 +240,7 @@ Licensed under the [MIT License](LICENSE) — © 2026 AI Workflow Pro.
 |---|---|
 | [awesome-rss-feeds-list](https://github.com/aiworkflowpro/awesome-rss-feeds-list) | 8936+ curated English RSS feeds across 21 categories |
 | [awesome-ai-practices-list](https://github.com/aiworkflowpro/awesome-ai-practices-list) | AI best practices, auto-curated every 6h by DigestOps |
-| ✅ [awp-workflow-agent-spec](https://github.com/aiworkflowpro/awp-workflow-agent-spec) | Specification for production-grade Claude Code Skills |
+| **[awp-workflow-agent-spec](https://github.com/aiworkflowpro/awp-workflow-agent-spec)** | **Specification for production-grade Claude Code Skills** |
 | [awp-video-editing-skill](https://github.com/aiworkflowpro/awp-video-editing-skill) | Claude Code Skill for automated video editing |
 
 🌐 [aiworkflowpro.com](https://aiworkflowpro.com) · 👤 [@aiworkflowpro](https://github.com/aiworkflowpro)
