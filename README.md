@@ -228,30 +228,32 @@ We focus on how AI coding tools (Claude Code / Codex), agents, and automation ac
 
 ---
 
-
-## 🧩 More from AI Workflow Pro
-
-| Project | What it is |
-|---|---|
-| ✅ [workflow-agent-skill-spec](https://github.com/aiworkflowpro/workflow-agent-skill-spec) | Spec for building production-grade Claude Code Skills |
-| [video-editing-skill](https://github.com/aiworkflowpro/video-editing-skill) | Claude Code Skill — automated video editing |
-| [awesome-rss-feeds](https://github.com/aiworkflowpro/awesome-rss-feeds) | 2000+ curated RSS feeds, 30 categories |
-| [awesome-ai-practices](https://github.com/aiworkflowpro/awesome-ai-practices) | Real AI best practices, auto-curated every 6h |
-
-🌐 [aiworkflowpro.com](https://aiworkflowpro.com) · 👤 [@aiworkflowpro](https://github.com/aiworkflowpro) · 𝕏 [@aiworkflowprolk](https://x.com/aiworkflowprolk)
-
 ## 📄 License
 
 Licensed under the [MIT License](LICENSE) — © 2026 AI Workflow Pro.
 
+---
+
+## More from AI Workflow Pro
+
+| Project | What it is |
+|---|---|
+| [awesome-rss-feeds-list](https://github.com/aiworkflowpro/awesome-rss-feeds-list) | 8936+ curated English RSS feeds across 21 categories |
+| [awesome-ai-practices-list](https://github.com/aiworkflowpro/awesome-ai-practices-list) | AI best practices, auto-curated every 6h by DigestOps |
+| ✅ [awp-workflow-agent-spec](https://github.com/aiworkflowpro/awp-workflow-agent-spec) | Specification for production-grade Claude Code Skills |
+| [awp-video-editing-skill](https://github.com/aiworkflowpro/awp-video-editing-skill) | Claude Code Skill for automated video editing |
+
+🌐 [aiworkflowpro.com](https://aiworkflowpro.com) · 👤 [@aiworkflowpro](https://github.com/aiworkflowpro)
+
+---
+
 <div align="center">
 
-### ⭐ If this spec is useful to you, leave a Star
+### If this spec saves you time, a ⭐ helps others find it
 
-[![Website](https://img.shields.io/badge/🌐_Website-aiworkflowpro.com-FF6B35?style=for-the-badge)](https://aiworkflowpro.com)
-[![X / Twitter](https://img.shields.io/badge/𝕏_Twitter-@aiworkflowprolk-000000?style=for-the-badge)](https://x.com/aiworkflowprolk)
-[![GitHub](https://img.shields.io/badge/💻_GitHub-aiworkflowpro-181717?style=for-the-badge)](https://github.com/aiworkflowpro)
+[![Website](https://img.shields.io/badge/🌐_Website-aiworkflowpro.com-10B981?style=flat)](https://aiworkflowpro.com)
+[![X](https://img.shields.io/badge/𝕏-@aiworkflowprolk-000000?style=flat)](https://x.com/aiworkflowprolk)
 
-> 🎯 **Tools change, workflows don't.**
+**Building AI tools in public — the products, the process, the lessons.**
 
 </div>
